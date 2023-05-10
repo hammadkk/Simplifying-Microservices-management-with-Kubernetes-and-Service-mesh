@@ -30,6 +30,7 @@ Microservices architectures are more complex to develop and deploy compared to m
 # How Kubernetes Helps with Microservices Management
 
 ![3](https://github.com/hammadkk/Simplifying-Microservices-management-with-Kubernetes-and-Service-mesh/assets/85316531/19ffffc2-76ed-4817-be70-65f9b077444a)
+
 Source: https://dzone.com/articles/benefits-of-kubernetes-for-microservices-architect
 
 Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. It’s particularly well-suited for managing microservices, thanks to its powerful features and flexibility. It helps in :
@@ -88,6 +89,7 @@ Istio can be used with Kubernetes and other container orchestration platforms to
 ![6](https://github.com/hammadkk/Simplifying-Microservices-management-with-Kubernetes-and-Service-mesh/assets/85316531/648caea5-f74d-4568-a872-280c10828d12)
 
 Source: https://istio.io/latest/docs/ops/deployment/architecture/#:~:text=An%20Istio%20service%20mesh%20is,all%20network%20communication%20between%20microservices.
+
 At a high level, the Istio architecture consists of three main components:
 
 1. Data Plane: The data plane is responsible for handling the network traffic between the microservices in the application. It consists of a set of Envoy proxies that are deployed alongside each microservice. These proxies intercept all incoming and outgoing traffic and can perform various functions such as load balancing, traffic routing, and service discovery.
